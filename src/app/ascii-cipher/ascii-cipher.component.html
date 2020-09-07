@@ -1,0 +1,39 @@
+<nav class="nav1">
+    <div class="Box" style="margin-left: 50px;">
+        <nav class="nav1">
+<h2>Encode</h2>
+<label>Text:   </label>
+<input (keyup)="updateInput($event)">
+<br>
+<label>Key: </label>
+<input (keyup)="updateKey($event)">
+<br>
+<button (click)="encode()">
+Click to encode </button>
+</nav>
+<nav class="nav2" style="width:250px">
+    <br>
+    <br>
+    <br>
+    <br>
+<p>{{outputText}}</p>
+</nav>
+</div></nav>
+
+
+<div class="Box" style="float:right;margin-right:50px;">
+<h2>Decode</h2>
+<label>Text:   </label>
+<input (keyup)="updateInput2($event)">
+<br>
+<label>Key: </label>
+<input (keyup)="updateKey2($event)">
+<br>
+<button (click)="decode()">
+Click to decode </button>
+<nav class="nav2" style="width:250px">
+<p>{{outputText2}}</p>
+</nav>
+</div>
+
+

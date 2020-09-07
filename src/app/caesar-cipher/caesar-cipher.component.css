@@ -1,0 +1,18 @@
+.Box{
+    width: 600px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: auto;
+    font-family: Impact;
+    background-color: #b7dfed;
+}
+    
+ .nav1 {
+    float: left;    
+ }
+ .nav2 {
+     float: right;
+     font-size: 20px;
+     text-align: center;
+ }

@@ -1,0 +1,39 @@
+<nav class="nav1">
+<div class="Box" style="margin-left: 50px;">
+    <nav class="nav1">
+<h2>Cipher</h2>
+<label>Text:   </label>
+<input (keyup)="updateInput($event)">
+<br>
+<label>Code: </label>
+<input (keyup)="updateCode($event)">
+<br>
+<button (click)="cipher()">
+Click to encrypt </button>
+<br>
+</nav>
+<nav class="nav2" style="width:250px">
+    <br>
+    <br>
+    <br>
+    <br>
+<p>{{outputText}}</p>
+</nav>
+</div></nav>
+
+<div class="Box" style="float:right;margin-right:50px;">
+<h2>Decipher</h2>
+<label>Text:   </label>
+<input (keyup)="updateInput2($event)">
+<br>
+<label>Code: </label>
+<input (keyup)="updateCode2($event)">
+<br>
+<button (click)="decipher()">
+Click to decrypt </button>
+
+<nav class="nav2" style="width:250px">
+    
+<p>{{outputText2}}</p>
+</nav>
+</div>

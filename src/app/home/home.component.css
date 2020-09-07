@@ -1,0 +1,21 @@
+.aboutTitle{
+    color: #282c34;
+    margin-left: 5%;
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+.aboutContent{
+    color: #282c34;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.abouth2{
+    color: #282c34;
+    margin-left: 5%;
+    font-size: 50px;
+    font-weight: 700;
+}
